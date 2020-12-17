@@ -1,0 +1,387 @@
+/*@charset "UTF-8";
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url("../images/_login.jpg");
+	background-size: cover;
+}
+
+#main {
+	width: 550px;
+	height: 450px;
+	display: flex;
+	flex-flow: column;
+	margin: 230px auto;
+	justify-self: center;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	opacity: 0.8;
+	box-sizing: border-box;
+	
+	background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+h1{
+	color: #55AAFF;
+	text-align: center;
+	margin: 10px 0;
+}
+
+#user_login {
+	display: flex;
+	flex-flow: column;
+	justify-items: center;
+	align-items: center;
+}
+
+#nameAndPassword_name {
+	width: 250px;
+	height: 30px;
+	background: url("../images/user.png") no-repeat;
+	box-sizing: border-box;
+	padding-left: 32px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+
+.label_name {
+	position: relative;
+}
+
+#error_name {
+	display: none;
+	width: 250px;
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	z-index: 1;
+}
+
+#nameAndPassword_name:hover{
+	border: 1px solid #55aaff;
+}
+
+.label_pwd {
+	position: relative;
+	margin-top: 20px;
+}
+
+#error_pwd {
+	display: none;
+	width: 250px;
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	z-index: 1;
+}
+
+#nameAndPassword_pwd {
+	width: 250px;
+	height: 30px;
+	background: url("../images/pwd.png") no-repeat;
+	box-sizing: border-box;
+	padding-left: 32px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+
+#nameAndPassword_pwd:hover {
+	border: 1px solid #55aaff;
+}
+
+.Verify_label{
+	display: flex;
+	position: relative;
+	width: 250px;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+#error_verify {
+	display: none;
+	width: 250px;
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	bottom: -12px;
+	z-index: 1;
+}
+
+#Verify_input{
+	width: 140px;
+	height: 30px;
+	background: url("../images/yzm.png") no-repeat;
+	box-sizing: border-box;
+	padding-left: 32px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+
+#Verify_input:hover{
+	border: 1px solid #55aaff;
+}
+
+#img_btn {
+	border: 1px solid #55AAFF;
+	font-size: 12px;
+	background: #55AAFF;
+	cursor: pointer;
+}
+
+#p_show {
+	display: none;
+	width: 100px;
+	border: 1px solid #000000;
+	font-size: 10px;
+	color: crimson;
+	position: absolute;
+	right: 0;
+	bottom: -18px;
+	z-index: 999;
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+
+.checkBox_show {
+	display: flex;
+	width: 250px;
+	font-size: 12px;
+	margin-top: 20px;
+	justify-content: space-between;
+	position: relative;
+}
+
+.label_btn {
+	position: relative;
+	margin-top: 10px;
+}
+
+#error_info {
+	display: none;
+	width: 200px;
+	text-align: center;
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	bottom: -14px;
+	z-index: 1;
+}
+
+.btn_login{
+	display: block;
+	width: 200px;
+	height: 40px;
+	text-decoration: none;
+	background-color: #55aaff;
+	color: #FFFFFF;
+	border: 0;
+	border-radius: 20px;
+	cursor: pointer;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+
+.register_page {
+	text-decoration: none;
+}*/
+body{
+	background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+}
+
+
+.box_1{
+	margin-top: 30px;
+	float: left;
+	width: 65%;
+	height: 670px;
+	background: url(../images/_login.jpg);
+	border:7px solid azure ;
+}
+.box_2{
+	background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+	border:7px solid azure ;
+	margin-top: 30px;
+	width: 30%;
+	height: 600px;
+	float: right;
+}
+#main {
+	width: 80%;
+	height: 500px;
+	display: flex;
+	flex-flow: column;
+	margin: 49px auto;
+	justify-self: center;
+	opacity: 0.8;
+	box-sizing: border-box;
+	
+	background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+h1{
+	color: #000000;
+	text-align: center;
+	margin: 10px 0;
+}
+
+#user_login {
+	display: flex;
+	flex-flow: column;
+	justify-items: center;
+	align-items: center;
+}
+
+#nameAndPassword_name {
+	width: 250px;
+	height: 30px;
+	background: url("../images/user.png") no-repeat;
+	box-sizing: border-box;
+	padding-left: 32px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+
+.label_name {
+	position: relative;
+}
+
+#error_name {
+	display: none;
+	width: 250px;
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	z-index: 1;
+}
+
+#nameAndPassword_name:hover{
+	border: 1px solid #55aaff;
+}
+
+.label_pwd {
+	position: relative;
+	margin-top: 20px;
+}
+
+#error_pwd {
+	display: none;
+	width: 250px;
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	z-index: 1;
+}
+
+#nameAndPassword_pwd {
+	width: 250px;
+	height: 30px;
+	background: url("../images/pwd.png") no-repeat;
+	box-sizing: border-box;
+	padding-left: 32px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+
+#nameAndPassword_pwd:hover {
+	border: 1px solid #55aaff;
+}
+
+.Verify_label{
+	display: flex;
+	position: relative;
+	width: 250px;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+#error_verify {
+	display: none;
+	width: 250px;
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	bottom: -12px;
+	z-index: 1;
+}
+
+#Verify_input{
+	width: 140px;
+	height: 30px;
+	background: url("../images/yzm.png") no-repeat;
+	box-sizing: border-box;
+	padding-left: 32px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+
+#Verify_input:hover{
+	border: 1px solid #55aaff;
+}
+
+#img_btn {
+	border: 1px solid #55AAFF;
+	font-size: 12px;
+	background: #55AAFF;
+	cursor: pointer;
+}
+
+#p_show {
+	display: none;
+	width: 100px;
+	border: 1px solid #000000;
+	font-size: 10px;
+	color: crimson;
+	position: absolute;
+	right: 0;
+	bottom: -18px;
+	z-index: 999;
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+
+.checkBox_show {
+	display: flex;
+	width: 250px;
+	font-size: 12px;
+	margin-top: 20px;
+	justify-content: space-between;
+	position: relative;
+}
+
+.label_btn {
+	position: relative;
+	margin-top: 10px;
+}
+
+#error_info {
+	display: none;
+	width: 200px;
+	text-align: center;
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	bottom: -14px;
+	z-index: 1;
+}
+
+.btn_login{
+	display: block;
+	width: 200px;
+	height: 40px;
+	text-decoration: none;
+	background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+	color: #000000;
+	border: 0;
+	border-radius: 20px;
+	cursor: pointer;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+
+.register_page {
+	text-decoration: none;
+}
